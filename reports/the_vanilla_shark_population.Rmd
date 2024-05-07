@@ -1,0 +1,47 @@
+---
+title: "The Vanilla Shark Population"
+author: "Felix T Petersma"
+date: "2022-11-25"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Some background
+
+There is nothing special about this population of vanilla sharks, *Carcharhinus ordinarii*. 
+The population lives around a remote island with nothing but deep ocean around, which has led to creating distinct and unique life history traits. 
+A yearly life cycle of one of this sharks runs as follows. 
+The first things that happens is a mating season; gestation is negligbly short, and mating is limited only by the mature females, all of which mate every year. 
+Litters always consists of 2 juveniles, of which sex is randomly assigned in line with a 50/50 sex ratio.
+Mature males can father multiple litters, but a litter can never have more than father; hence, not all mature males father a litter every mating cycle.
+Sampling happens pretty quickly after the mating season, and sampling is non-lethal. We can assume that there is no natural mortality between mating and sampling. 
+Sampling is done all around the island with pretty even effort. 
+After sampling there is a long period of ordinary living (again, vanilla sharks are **very** basic sharks), where the sharks swim around the island, eat some smaller fish, and some die. 
+In the end, the sharks make it to the end of the year following survival probability $\phi$. 
+The surviving sharks celebrate their birthdays, and all ages are incremented by 1. 
+Any sharks whose age surpasses the maximum age of the vanilla shark, which is 19, are added to the graveyard. 
+Once the lost ones are buried (underwater cremation has proven difficult, for obvious reasons), the new year starts and the cycle continues. 
+
+
+
+
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
